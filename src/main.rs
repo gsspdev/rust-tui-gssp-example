@@ -1,5 +1,5 @@
 use std::io;
-use crossterm::{terminal::{EnterAlternateScreen, LeaveAlternateScreen}, event::{EnableMouseCapture, DisableMouseCapture, KeyCode}};
+use crossterm:: {terminal::{EnterAlternateScreen, LeaveAlternateScreen}, event::{EnableMouseCapture, DisableMouseCapture, KeyCode}};
 use crossterm::terminal;
 
 fn main() -> Result<(), E> {
